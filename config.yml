@@ -1,0 +1,6 @@
+db:
+ip: "51.91.78.95"
+username: "dev.12d97046"
+password: ""
+database: "impulse"
+port: 3306
