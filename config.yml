@@ -1,6 +1,6 @@
 db:
-ip: "51.91.78.95"
-username: "dev.12d97046"
+ip: "yoursqlip"
+username: ""
 password: ""
 database: "impulse"
 port: 3306
