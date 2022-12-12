@@ -39,8 +39,8 @@ impulse.Config.ChairsLimit = 3
 
 impulse.Config.StartingMoney = 50
 impulse.Config.StartingBankMoney = 450
-impulse.Config.CurrencyPrefix = "£"
-impulse.Config.CurrencyName = "pounds"
+impulse.Config.CurrencyPrefix = "$"
+impulse.Config.CurrencyName = "dollar"
 impulse.Config.ATMModel = "models/props_combine/combine_intwallunit.mdl"
 
 impulse.Config.XPTime = 100
@@ -197,5 +197,4 @@ impulse.Config.DefaultFemaleModels = {
 impulse.Config.DefaultSkinBlacklist = {
 	["models/player/impulse_zelpa/male_02.mdl"] = {14, 22, 6} -- bloody eye skins banned
 }
-
 
