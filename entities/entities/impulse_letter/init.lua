@@ -2,7 +2,7 @@ AddCSLuaFile( "shared.lua" )
 include('shared.lua')
 
 function ENT:Initialize()
-	self:SetModel("models/props_c17/paper01.mdl")
+	self:SetModel("models/props_c17/paper01.mdl")--Don't tuch this since there is no config file
 	self:PhysicsInit( SOLID_VPHYSICS )  
 	self:SetMoveType(SOLID_VPHYSICS)  
 	self:SetSolid( SOLID_VPHYSICS )   
