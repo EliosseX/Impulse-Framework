@@ -3,7 +3,7 @@ AddCSLuaFile("shared.lua")
 include("shared.lua")
 
 function ENT:Initialize()
-    self:SetModel("models/Humans/Group02/Female_02.mdl")
+    self:SetModel("models/Humans/Group02/Female_02.mdl")--Don't tuch this since there is no config file
     self:SetUseType(SIMPLE_USE)
     self:SetMoveType(MOVETYPE_NONE)
     self:SetSolid(SOLID_BBOX)
