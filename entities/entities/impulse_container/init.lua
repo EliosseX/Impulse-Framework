@@ -9,7 +9,7 @@ function ENT:Initialize()
 	if model then
 		self:SetModel(model)
 	elseif self:GetModel() == "models/error.mdl" then
-		self:SetModel("models/props_junk/wood_crate001a.mdl")
+		self:SetModel("models/props_junk/wood_crate001a.mdl")--Don't tuch this since there is no config file
 	end
 	
 	self:PhysicsInit(SOLID_VPHYSICS)
