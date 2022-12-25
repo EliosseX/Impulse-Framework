@@ -4,7 +4,7 @@ AddCSLuaFile("shared.lua")
 include("shared.lua")
 
 function ENT:Initialize()
-	self:SetModel("models/props_c17/Lockers001a.mdl") --impulse.Config.InventoryStoragePublicModel
+	self:SetModel("models/props_c17/Lockers001a.mdl") --Don't tuch this since there is no config file
 	self:PhysicsInit(SOLID_VPHYSICS)
 	self:SetMoveType(SOLID_VPHYSICS)
 	self:SetSolid(SOLID_VPHYSICS)
