@@ -4,7 +4,7 @@ AddCSLuaFile("shared.lua")
 include("shared.lua")
 
 function ENT:Initialize()
-	self:SetModel(self.Bench.Model)
+	self:SetModel(self.Bench.Model) --Don't tuch this since there is no config file
 	self:PhysicsInit(SOLID_VPHYSICS)
 	self:SetMoveType(SOLID_VPHYSICS)
 	self:SetSolid(SOLID_VPHYSICS)
