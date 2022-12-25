@@ -26,7 +26,7 @@ function ENT:Initialize()
             self:SetIdleSequence(self.Vendor.Sequence)
         end
     else
-        self:SetModel("models/Humans/Group01/male_02.mdl")
+        self:SetModel("models/Humans/Group01/male_02.mdl") --Don't tuch this since there is no config file
     end
 
     self:SetUseType(SIMPLE_USE)
