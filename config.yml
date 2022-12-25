@@ -1,6 +1,6 @@
-db:
-ip: "yoursqlip"
-username: ""
-password: ""
-database: "impulse"
-port: 3306
+ db:
+  ip: "localhost"
+  username: "root"
+  password: "secretpass"
+  database: "impulse_development"
+  port: 3306
